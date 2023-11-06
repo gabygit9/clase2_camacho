@@ -1,0 +1,38 @@
+.container{
+    max-width: 500px;
+    max-height: 300px;
+    background-color: rgb(95, 115, 150);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-row{
+    display: flex;
+    gap: 10px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input:last-child{
+    width: 96%;
+}
+button{
+    width: 9%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin: 5px auto;
+}
